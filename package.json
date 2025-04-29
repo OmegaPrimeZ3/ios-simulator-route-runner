@@ -1,0 +1,17 @@
+{
+  "name": "ios-simulator-route-runner",
+  "version": "1.0.0",
+  "description": "A tool to set iOS Simulator locations from GPX files",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "debug": "node --inspect src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "gpxparser": "^3.0.8"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Disney Land's Walk",
+    "description": "A walking route through Disney Land",
+    "gpxFile": "disney-lands-walk.gpx",
+    "startingPoint": {
+        "latitude": 33.8121,
+        "longitude": -117.9190
+    }
+} 
