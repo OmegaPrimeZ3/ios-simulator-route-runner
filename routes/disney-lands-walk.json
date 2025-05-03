@@ -1,6 +1,7 @@
 {
     "name": "Disney Land's Walk",
     "description": "A walking route through Disney Land",
+    "googleMapsUrl": "https://www.google.com/maps/dir/33.8097104,-117.9189648/33.8120558,-117.917596/33.8133571,-117.9174466/33.8152023,-117.918262/33.8132635,-117.9189808/33.8147699,-117.9212285/33.8123275,-117.9228915/33.8113469,-117.9210568/33.8122071,-117.9202575/33.8133838,-117.9207457/@33.8120059,-117.9212324,817m/data=!3m1!1e3!4m2!4m1!3e2?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D",
     "gpxFile": "disney-lands-walk.gpx",
     "startingPoint": {
         "latitude": 33.8121,
