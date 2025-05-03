@@ -18,6 +18,33 @@ When developing React Native or Expo applications that use location services, yo
 - **Automated Testing**: Easily integrate into your testing workflow
 - **Customizable Speed**: Adjust movement speed to test different scenarios (walking, running, driving)
 
+## Generating GPX Files
+
+To simulate real-world routes in the iOS Simulator, you need GPX files that describe the path you want to follow. One of the easiest ways to generate a GPX file is by using Google Maps and the [Maps to GPX](https://mapstogpx.com/) tool.
+
+### Steps to Generate a GPX File from Google Maps
+
+1. **Create a Route in Google Maps**
+   - Go to [Google Maps](https://maps.google.com/).
+   - Click on 'Directions' and enter your starting point and destination. You can add multiple stops if needed.
+   - Adjust the route as desired by dragging the path or adding waypoints.
+
+2. **Copy the Google Maps Directions Link**
+   - Once your route is set, click the menu (three dots) and select 'Share or embed map.'
+   - Click 'Copy Link' to copy the directions URL to your clipboard.
+
+3. **Convert the Link to a GPX File**
+   - Go to [Maps to GPX](https://mapstogpx.com/).
+   - Paste your copied Google Maps directions link into the input box.
+   - Choose your preferred options (e.g., Track Points for exact route, Route Points for essential turns).
+   - Click the button to generate and download your GPX file.
+
+4. **Add the GPX File to Your Project**
+   - Place the downloaded GPX file in the `gpx/` directory of this project.
+   - Create or update a route configuration in the `routes/` directory to reference your new GPX file.
+
+> **Tip:** This method is especially useful for developers who want to quickly simulate real-world navigation or test location-based features with custom routes. For more details, visit [Maps to GPX](https://mapstogpx.com/).
+
 ## Prerequisites
 
 - Node.js (v14 or higher)
